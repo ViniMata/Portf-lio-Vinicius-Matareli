@@ -6,7 +6,7 @@ import './index.css'
 import HomePage from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Projects from './pages/Projects.jsx'
-import Curriculo from './pages/Currisulo.jsx'
+import Curriculo from './pages/Curriculo.jsx'
 import Redes from './pages/Redes.jsx'
 const router = createBrowserRouter([{
 
