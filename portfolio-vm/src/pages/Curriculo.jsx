@@ -5,7 +5,6 @@ export default function Curriculo() {
     <div className="min-h-screen flex flex-col items-center bg-black text-white p-8">
       <h1 className="text-4xl font-bold mb-6">Meu Currículo</h1>
 
-      {/* Área para exibir o conteúdo do currículo */}
       <div className=" bg-red-800 p-6 rounded-lg shadow-md w-full max-w-4xl">
         <h2 className="text-3xl font-bold mb-4">Vinícius Pereira Matareli</h2>
         <p className="text-lg">Engenharia de Software - FIAP</p>
