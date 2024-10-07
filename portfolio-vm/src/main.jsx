@@ -8,6 +8,7 @@ import About from './pages/About.jsx'
 import Projects from './pages/Projects.jsx'
 import Curriculo from './pages/Curriculo.jsx'
 import Contato from './pages/Contato.jsx'
+import PaginaProjeto from './pages/PaginaProjeto.jsx'
 const router = createBrowserRouter([{
 
   path: "/",
@@ -17,7 +18,8 @@ const router = createBrowserRouter([{
     {path:"/sobre", element:<About/>},
     {path:"/projetos", element:<Projects/>},
     {path:"/curriculo", element:<Curriculo/>},
-    {path:"/contato", element:<Contato/>}
+    {path:"/contato", element:<Contato/>},
+    {path:"/projetos/:id", element:<PaginaProjeto/>}
   ]
 
 }])

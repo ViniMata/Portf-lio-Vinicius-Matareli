@@ -4,7 +4,7 @@ export default function HomePage() {
     return (
         <>
             <div className="h-screen flex items-center justify-between">
-                <div className="flex flex-col items-start space-y-6">
+                <div className="flex flex-col items-start space-y-6 ml-5">
                     <h1 className="text-white text-7xl">Oi! Eu sou Vinícius Matareli.</h1>
                     <button 
                         onClick={() => window.location.href = "/contato"} 

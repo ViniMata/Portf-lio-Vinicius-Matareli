@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Comparador de Tabelas",
+        "descricao": "Esse programa facilitará a interpretação de dados ja existentes. Precisando que o usuário apenas tenha uma tabela feita e que ele selecione os dados que deseja comparar. Esse projeto irá facilitar a visualização do usuário de tabelas já pré-existentes para que ele possa tirar conclusões com menos trabalho.",
+        "link" : "https://github.com/ViniMata/python_Global_Solutions",
+        "imagem" :"python-projeto.png",
+        "stack" : "Python"
+
+    },
+    {
+        "id": 2,
+        "name": "Análise de Tempos de Volta na formula E",
+        "descricao": "Este projeto visa analisar os tempos de volta dos pilotos da Fórmula E a partir de dados fornecidos em uma planilha Excel. O código lê os dados, converte os tempos para segundos, calcula a média dos tempos de volta, e oferece análises detalhadas como a identificação dos pilotos com o menor e maior tempo médio, além de estatísticas adicionais, como variância e desvio padrão.",
+        "link" : "https://github.com/gumoura82/Python",
+        "imagem" :"formula-e.jpg",
+        "stack" : "Python"
+
+    },
+    {
+        "id": 3,
+        "name": "Portfolio",
+        "descricao": "Fiz um portfolio utilizando React.",
+        "link" : "https://github.com/ViniMata/Portflio-Vinicius-Matareli",
+        "imagem" :"image-portfolio.png",
+        "stack" : "React"
+    }
+]

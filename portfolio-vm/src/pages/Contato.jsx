@@ -24,6 +24,18 @@ export default function Contato() {
         setMensagem('');
     };
 
+    const handleNomeChange = (e) =>{
+        setNome(e.target.value);
+        console.log("Nome: ", e.target.value);
+    };  
+    const handleEmailChange = (e) =>{
+        setEmail(e.target.value);
+        console.log("Email: ", e.target.value);
+    };  const handleMensagemChange = (e) =>{
+        setMensagem(e.target.value);
+        console.log("Mensagem: ", e.target.value);
+    };    
+
     return (
         <div className="min-h-screen flex items-center justify-center bg-black">
             <div className="bg-gray-950 p-8 rounded shadow-md w-full max-w-lg">
@@ -40,7 +52,7 @@ export default function Contato() {
                             id="nome"
                             className="mt-1 p-2 border border-gray-300 rounded w-full text-black"
                             value={nome}
-                            onChange={(e) => setNome(e.target.value)}
+                            onChange={handleNomeChange}
                             placeholder="Digite seu nome"
                         />
                     </div>
@@ -52,7 +64,7 @@ export default function Contato() {
                             id="email"
                             className="mt-1 p-2 border border-gray-300 rounded w-full text-black" 
                             value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            onChange={handleEmailChange}
                             placeholder="Digite seu email"
                         />
                     </div>
@@ -63,7 +75,7 @@ export default function Contato() {
                             id="mensagem"
                             className="mt-1 p-2 border border-gray-300 rounded w-full h-32 text-black" 
                             value={mensagem}
-                            onChange={(e) => setMensagem(e.target.value)}
+                            onChange={handleMensagemChange}
                             placeholder="Escreva sua mensagem"
                         />
                     </div>
