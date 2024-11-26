@@ -1,8 +1,8 @@
-# Nome do Projeto
+# Portfolio Vinicius Matareli
 
 ## Descrição
 
-Este projeto foi desenvolvido com o objetivo de [incluir objetivo do projeto]. Utilizando uma interface intuitiva e eficiente, o projeto visa [breve descrição das funcionalidades ou finalidades do projeto].
+Este projeto foi desenvolvido com o objetivo de mostrar algumas de minhas habilidades em react. Utilizando uma interface intuitiva e eficiente.
 
 ## Tecnologias Utilizadas
 
